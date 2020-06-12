@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Beranda</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+     <!-- Navigation -->
+     <app-bar></app-bar>
+
+     <main>
+
+          <!-- SECTION 1 Header body -->
+          <section class="sec1">
+               <h1>Data Pantauan COVID-19 Indonesia</h1>
+               <h5>21 Januari 2020 sampai hari ini</h5>
+          </section>
+
+          <!-- SECTION 2 Type info -->
+          <section class="sec2">
+               <div class="box">
+                    <h4><b>Positif</b></h4>
+                    <h5></h5>
+               </div>
+               <div class="box">
+                    <h4><b>Sembuh</b></h4>
+                    <h5></h5>
+               </div>
+               <div class="box">
+                    <h4><b>Meninggal</b></h4>
+                    <h5></h5>
+               </div>
+               <div class="box">
+                    <h4><b> Dirawat </b></h4>
+                    <h5></h5>
+               </div>
+          </section>
+
+          <section class="sec3"></section>
+
+          <!-- SECTION 4 BOX INFO -->
+          <section class="sec4" id="containerBOX">
+
+          </section>
+
+          <!-- SECTION 5 -->
+          <section class="sec5">
+               <button> Lihat Selengkapnya </button>
+          </section>
+
+     </main>
+
+     <section class="loaderContainer"></section>
+
+     <!-- FOOTER  -->
+     <footer>
+          <div class="bodyFooter">
+               <p>&copy; 2020 Personal Website of Reynaldy Made in <img src="./Img/Logo/logoIndo.png"> and Designed
+                    with <img src="./Img/Logo/loveIcon.png"> by Reynaldy</p>
+          </div>
+
+          <div class="lastFooter">
+               <h2>#HIDUPSEHAT</h2>
+               <h2>#KICKCOVID</h2>
+               <h2>#COVIDOUT</h2>
+          </div>
+     </footer>
+
+     <!-- Modal -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                    <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Kontak saya</h5>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                         </button>
+                    </div>
+                    <div class="modal-body">
+                         <img src="./Img/img/me.jpg" alt="me">
+
+                         <h1>Reynaldy Saputra</h1>
+
+                         <p>Hello, my name is Reynaldy Saputra. I am a Software Engineer and Web Design student</p>
+
+                         <a href="mailto:renalfrontend@gmail.com"><button>Email me <i class="fa fa-envelope"> </i></button></a>
+                    </div>
+                    <div class="modal-footer">
+                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+</body>
+
+</html>

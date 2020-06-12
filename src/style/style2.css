@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@800&display=swap');
+
+body {
+     margin: 0px;
+}
+
+#main {
+     border-top: 10vh solid white;
+}
+
+#main #sec1 {
+     width: 100%;
+     height: 50vh;
+     background: linear-gradient(90deg, #0351B5, #49B5FD);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-family: 'Bangers', cursive;
+     letter-spacing: 5px;
+}
+
+#main #sec1 h1{font-size: 5.4em;}
+
+#main #sec2 {
+     width: 90%;
+     margin: auto;
+     margin-top: 4%;
+}
+
+#main #sec2 .box:first-child {
+     width: 100%;
+     height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: sans-serif;     
+}
+
+#main #sec2 .box:first-child h2{font-size: 2.3em; font-weight: bold;}
+
+#main #sec2 .box:last-child {
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+}
+
+#main #sec2 .box:last-child aside{
+     width: 100%;
+     height: auto;
+}
+
+#main #sec2 .box:last-child aside:first-child h4{
+     font-weight: bold;
+     margin-top: 8%;
+}
+
+#main #sec2 .box:last-child aside:last-child{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#main #sec2 .box:last-child aside:last-child article {
+     width: 80%;
+     height: 95%;
+     background-color: #157FC7;
+     border-radius: 30px;
+     text-align: center;
+     color: white;
+     padding: 30px;
+     box-sizing: border-box;
+     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main #sec2 .box:last-child aside:last-child article h3{margin-top: 0%;}
+
+#main #sec2 .box:last-child aside:last-child article section {
+     width: 95%;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     justify-content: center;
+     margin: auto;
+     margin-top: 7%;
+}
+
+#main #sec2 .box:last-child aside:last-child article section .gejalaImg p{
+     margin-top: 10%;
+     font-weight: 300;
+     font-family: sans-serif;
+}
+
+#main #sec2 .box:last-child aside:last-child article #info {
+     display: block;
+     margin-top: 5% !important;
+}
+
+#main #sec3 {
+     width: 50%;
+     text-align: center;
+     margin: auto;
+     margin-top: 8%;
+}
+#main #sec3 h2 {font-size: 2.3em; font-weight: bold; margin-bottom: 5%;}
+
+#main #sec4,
+#main #sec5 {
+     width: 80%;
+     text-align: center;
+     margin: auto;
+     margin-top: 5%;
+     color: #323232;
+}
+#main #sec4 h2 {font-size: 2.3em; font-weight: bold; margin-bottom: 5%;}
+#main #sec5 h2 {font-size: 2.3em; font-weight: bold; margin-bottom: 5%;}
+
+#main #sec4 aside{
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     justify-content: center;
+     align-content: center;
+     gap: 20px;
+}
+
+#main #sec4 aside .boxType{
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     box-sizing: border-box;
+}
+
+#main #sec4 aside .boxType p{ 
+     margin-top: 7%;
+}
+
+#main #sec5 aside {
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     justify-content: center;
+     gap: 20px;
+}
+
+#main #sec5 article {
+     padding: 20px;
+     box-sizing: border-box;
+}
+
+#main #sec5 aside p{ margin-top: 10%;}
+
+#main #sec6 {
+     width: 80%;
+     height: 200vh;
+     margin: auto;
+     margin-top: 8%;
+     text-align: center;
+}
+
+#main #sec6 img{
+     width: 80%;
+     height: 100%;
+}
+
+.modal-body{
+     text-align: center;
+     padding: 30px;
+     box-sizing: border-box;
+}
+
+.modal-body img {
+     width: 50%;
+     border-radius: 100%;
+}
+
+.modal-body h1 {
+     font-family: 'Spartan', sans-serif;
+     margin-top: 7%;
+     letter-spacing: -2px;
+     color: #333;
+}
+
+.modal-body p {
+     color: rgb(88, 88, 88);
+}
+
+.modal-body button {
+     width: 30%;
+     background-color: transparent;
+     border: 1px solid #333;
+     border-radius: 5px;
+     transition: 0.5s;
+}
+
+.modal-body button:hover {
+     background-color: #333;
+     color: white;
+}

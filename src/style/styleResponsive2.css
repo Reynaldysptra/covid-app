@@ -1,0 +1,136 @@
+/* ----- SMARTPHONE PORTRAIT------ */
+@media only screen 
+     and (min-width : 200px)
+     and (max-width : 568px)
+     and (orientation : portrait) {
+
+          #main #sec1 h1{font-size: 3.5em;}
+
+          #main #sec2 .box:last-child {
+               grid-template-columns: 100%;
+               padding: 10px;
+               box-sizing: border-box;
+               text-indent: 20px;
+          }
+
+          #main #sec2 .box:last-child aside:last-child article{
+               width: 100% !important;
+          }
+
+          #main #sec2 .box:last-child aside:last-child article section {
+               grid-template-columns: 100%;
+          }
+
+          #main #sec3{
+               margin-top: 15%;
+          }
+
+          #main #sec3 h2 {font-size: 2em; font-weight: bold; margin-bottom: 5%;}
+
+          #main #sec4{
+               margin-top: 10%;
+          }
+
+          #main #sec4 aside{
+               grid-template-columns: 100%;
+          }
+
+          #main #sec5 aside {
+               grid-template-columns: 100%;
+          }
+
+          #main #sec6 {
+               width: 90%;
+               height: 110vh;
+          }
+
+          .modal-body button {
+               width: 50%;
+          }
+}
+
+/* ----- SMARTPHONE PORTRAIT IPHONE 5------ */
+@media only screen 
+     and (min-width : 200px)
+     and (max-width : 320px)
+     and (orientation : portrait) {
+          #main #sec2 .box:first-child h2{font-size: 2em; font-weight: bold;}
+}
+
+/* ----- SMARTPHONE IPHONE 5 LANDSCAPE------ */
+@media only screen 
+     and (min-width : 500px)
+     and (max-width : 568px)
+     and (orientation : landscape) {
+          #main #sec4 aside{
+               grid-template-columns: repeat(2, 1fr);
+          }  
+
+          #main #sec5 aside {
+               grid-template-columns: repeat(2, 1fr);
+          }
+}
+
+/* ----- SMARTPHONE LANDSCAPE------ */
+@media only screen 
+     and (min-width : 300px)
+     and (max-width : 812px)
+     and (orientation : landscape) {
+          #main {
+               border-top: 15vh solid white;
+          }
+
+          #main #sec2 .box:last-child aside:last-child article{
+               width: 80%;
+          }
+
+          #main #sec2 .box:last-child aside:last-child article section {
+               grid-template-columns: 100%;
+          }
+
+          #main #sec5 aside {
+               grid-template-columns: repeat(2, 1fr);
+          }
+
+          #main #sec6 {
+               width: 60%;
+               height: 200vh;
+          }
+}
+
+/* ------ IPAD ------ */
+@media only screen 
+     and (min-width :768px)
+     and (max-width : 1024px){
+          #main #sec2 .box:last-child {
+               gap: 50px;
+          }
+
+          #main #sec2 .box:last-child aside:last-child article {
+               width: 90%;
+               height: 80%;
+          }
+
+          #main #sec5 aside {
+               grid-template-columns: repeat(2, 1fr);
+          }
+
+          #main #sec6 {
+               width: 70%;
+               height: 100vh;
+          }
+}
+
+/* ------ IPAD LANDSCAPE ------ */
+@media only screen 
+     and (min-width :1024px)
+     and (max-width : 1025px){
+          #main #sec2 .box:last-child aside:last-child article{
+               height: 90%;
+          }
+
+          #main #sec6 {
+               width: 50%;
+               height: 100vh;
+          }
+}
